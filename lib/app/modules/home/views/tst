@@ -1,0 +1,12 @@
+  children: Container(
+                      padding: EdgeInsets.all(20),
+                      child:
+                         
+                      decoration: BoxDecoration(
+                        gradient: LinearGradient(
+                            colors: [Colors.blue, Colors.purple],
+                            begin: Alignment.topLeft,
+                            end: Alignment.bottomRight),
+                        borderRadius: BorderRadius.circular(20),
+                      ),
+                    ),
